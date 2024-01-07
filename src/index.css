@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,500;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pnf css */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+.png-heading {
+  font-weight: normal;
+}
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto";
+}
+
+/* footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background-color: gray;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover {
+  border-bottom: 2px solid #ffefba;
+}
+
+/* contact */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Signup */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 75.5vh;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+.form-container form {
+  box-shadow: rgba(203, 14, 14, 0.35) 0px, 5px, 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+.form-container form button {
+  border: none;
+  border-radius: 10px;
+font-weight: bold;
+  color: #000;
+  width: 250px;
+  
+}
+/* .form-container form button:hover {
+  border: 1px solid #f5e107;
+  background-color: #f5e107;
+  color: black;
+} */
